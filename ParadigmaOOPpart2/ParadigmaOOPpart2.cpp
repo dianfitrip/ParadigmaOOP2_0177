@@ -30,3 +30,21 @@ public:
 		cout << "pesan dari lia" << endl;
 	}
 };
+
+
+int main()
+{
+	Seseorang* obyek;
+	Joko a;
+	Lia b;
+
+	obyek = &a;
+	obyek->pesan();
+	obyek = &b;
+	obyek->pesan();
+
+	//akses method pesan() dari class seseorang
+	//a.seseorang::pesan();
+
+	return 0;
+}
