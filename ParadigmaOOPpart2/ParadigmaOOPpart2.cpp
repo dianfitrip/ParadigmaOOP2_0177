@@ -12,3 +12,12 @@ public:
 };
 
 
+class Joko : public Seseorang
+{
+public:
+	//deklarasi
+	void pesan()
+	{
+		cout << "pesan dari joko" << endl;
+	}
+};
