@@ -21,3 +21,12 @@ public:
 		cout << "pesan dari joko" << endl;
 	}
 };
+
+
+class Lia : public Seseorang
+{
+public:
+	void pesan() {
+		cout << "pesan dari lia" << endl;
+	}
+};
