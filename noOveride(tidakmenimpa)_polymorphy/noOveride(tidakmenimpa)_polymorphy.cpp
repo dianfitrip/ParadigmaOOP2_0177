@@ -25,7 +25,7 @@ public:
 
 int main()
 {
-	derivedClass a;
+	DerivedClass a;
 	a.perkenalan();
 
 	return 0;
